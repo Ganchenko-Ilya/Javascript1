@@ -125,13 +125,13 @@ else{
 
 let mark = Number(prompt('Какой у тебя балл за экзамен?'));
 let project = Number(prompt('Cколько у тебя выполненных проектов?'));
-if(mark > 90, project > 10){
+if(mark > 90 || project > 10){
     console.log('Общий выпускной балл: 100');
 }
-else if(mark > 75, project >= 5){
+else if(mark > 75 && project >= 5){
     console.log('Общий выпускной балл: 90');
 }
-else if(mark > 50, project >= 2){
+else if(mark > 50 && project >= 2){
     console.log('Общий выпускной балл: 75');
 }
 else{
